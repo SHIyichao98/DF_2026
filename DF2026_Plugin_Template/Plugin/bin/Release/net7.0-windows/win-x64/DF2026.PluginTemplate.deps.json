@@ -1,0 +1,101 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {},
+    ".NETCoreApp,Version=v7.0/win-x64": {
+      "DF2026.PluginTemplate/1.0.0": {
+        "dependencies": {
+          "Grasshopper": "8.15.25013.13001",
+          "Microsoft.ML.OnnxRuntime": "1.21.0",
+          "RhinoCommon": "8.15.25013.13001"
+        },
+        "runtime": {
+          "DF2026.PluginTemplate.gha": {}
+        }
+      },
+      "Grasshopper/8.15.25013.13001": {
+        "dependencies": {
+          "RhinoCommon": "8.15.25013.13001"
+        }
+      },
+      "Microsoft.ML.OnnxRuntime/1.21.0": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntime.Managed": "1.21.0"
+        },
+        "native": {
+          "runtimes/win-x64/native/onnxruntime.dll": {
+            "fileVersion": "1.21.25.307"
+          },
+          "runtimes/win-x64/native/onnxruntime.lib": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.dll": {
+            "fileVersion": "1.21.25.307"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.lib": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntime.Managed/1.21.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.OnnxRuntime.dll": {
+            "assemblyVersion": "1.21.0.0",
+            "fileVersion": "1.21.0.0"
+          }
+        }
+      },
+      "RhinoCommon/8.15.25013.13001": {},
+      "System.Memory/4.5.5": {}
+    }
+  },
+  "libraries": {
+    "DF2026.PluginTemplate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Grasshopper/8.15.25013.13001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UUw4TWM+IIFDLIZPgf9fMD2Re2R8fjktlDJar1mGVUtIATyDKZtA3PCARn9Kv04hSqTAR3qYx3eOw6RaUrsgCQ==",
+      "path": "grasshopper/8.15.25013.13001",
+      "hashPath": "grasshopper.8.15.25013.13001.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime/1.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1IN5rz0W7SFiVKblydIcCh0TVXDVbgTHdFGchjrH+vEtneRED7PL8RDcQOXE4FO3y10vvjg03LNubFTX74FCpA==",
+      "path": "microsoft.ml.onnxruntime/1.21.0",
+      "hashPath": "microsoft.ml.onnxruntime.1.21.0.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime.Managed/1.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pp4PFhCELCMO8dWNbGK9Ge+Zh09xPVknmjvAgXIrLsfAgmv1It5aATP3UJTG/GBVzcvshDL/UI+KV9O8YQzkkQ==",
+      "path": "microsoft.ml.onnxruntime.managed/1.21.0",
+      "hashPath": "microsoft.ml.onnxruntime.managed.1.21.0.nupkg.sha512"
+    },
+    "RhinoCommon/8.15.25013.13001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+z1Klb2Ww1nez938WE+dP/+cWsH7rdan+WxThzyrcNIKCXwKKX+zqidu8hrILlxFdCP38HCmdb5zJ9ZJvwE7DA==",
+      "path": "rhinocommon/8.15.25013.13001",
+      "hashPath": "rhinocommon.8.15.25013.13001.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    }
+  }
+}

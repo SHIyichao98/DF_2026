@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <TargetExt>.gha</TargetExt>
+    <AssemblyName>DF2026.PluginTemplate</AssemblyName>
+    <RootNamespace>DF2026.PluginTemplate</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <!-- McNeel's Rhino 8 reference packages use .NET Framework asset metadata,
+         while Rhino 8 supports these APIs from its .NET 7 runtime. -->
+    <NoWarn>$(NoWarn);NU1701</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Title>DF2026 Grasshopper ONNX Plugin Template</Title>
+    <Company>DigitalFUTURES 2026 Workshop</Company>
+    <Authors>DigitalFUTURES 2026 Workshop Team</Authors>
+    <Description>A configurable Grasshopper ONNX regression plugin template.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grasshopper" Version="8.15.25013.13001" ExcludeAssets="runtime" />
+    <PackageReference Include="RhinoCommon" Version="8.15.25013.13001" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.21.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Model\model.onnx"
+          Link="model.onnx"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest" />
+
+    <EmbeddedResource Include="..\Assets\component_icon.png"
+                      Link="Assets\component_icon.png"
+                      LogicalName="DF2026.PluginTemplate.component_icon.png" />
+  </ItemGroup>
+
+</Project>

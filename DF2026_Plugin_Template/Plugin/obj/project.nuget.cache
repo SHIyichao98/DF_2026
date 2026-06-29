@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "k4MUNNxopKpXBeN7OoJRYo43fKxjawpsCNu/riWk3Ob94prz0nusPayigBLa+rJmALiwLsMfJfN+p/XyfkCsUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shiyi\\OneDrive\\Documents\\0-Academic acativities\\DF2026\\Preparation\\04_Model_Packaging_Demo\\DF2026_Plugin_Template\\Plugin\\DF2026.PluginTemplate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shiyi\\.nuget\\packages\\grasshopper\\8.15.25013.13001\\grasshopper.8.15.25013.13001.nupkg.sha512",
+    "C:\\Users\\shiyi\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.21.0\\microsoft.ml.onnxruntime.1.21.0.nupkg.sha512",
+    "C:\\Users\\shiyi\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.21.0\\microsoft.ml.onnxruntime.managed.1.21.0.nupkg.sha512",
+    "C:\\Users\\shiyi\\.nuget\\packages\\rhinocommon\\8.15.25013.13001\\rhinocommon.8.15.25013.13001.nupkg.sha512",
+    "C:\\Users\\shiyi\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
